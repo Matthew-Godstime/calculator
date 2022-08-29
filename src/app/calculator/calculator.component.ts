@@ -75,7 +75,7 @@ export class CalculatorComponent implements OnInit {
     console.log('Last ' + this.input.substring(pos + 1));
     return this.input.substring(pos + 1);
   }
-
+ 
   public pressOperator(op: string): void {
     //Do not allow operators more than once
     const lastKey = this.input[this.input.length - 1];
